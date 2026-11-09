@@ -1,0 +1,12 @@
+R parameter-export verification passed for every modeling row.
+Rows: 500; row-ID source: cfg.original_row_ids
+Maximum design-matrix absolute error: 0
+Maximum linear-predictor absolute error: 8.8817841970012523e-16
+Maximum standard-error absolute error: 1.1102230246251565e-16
+Coefficients, covariance, ranges and default values were serialized without rounding (digits=NA).
+Input decimals and steps are presentation metadata, never model-parameter rounding.
+Automatic input precision follows original table values and configured bounds (scanned through 10 places). Explicit precision may be higher, but cannot hide observed decimal places.
+The automatic input default is the median rounded HALF_UP to the input precision. The internal median design reference remains unrounded.
+Export is rejected if training values or configured bounds require more than the 10 decimal places supported by the web controls.
+Prediction and confidence limits use outcome=1 and the normal approximation on the logit scale.
+Patient-level reference values are stored outside streamlit_app and must not be included in the deployment bundle.
